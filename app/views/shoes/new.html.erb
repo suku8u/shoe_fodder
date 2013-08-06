@@ -1,0 +1,11 @@
+<h1>New shoe</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', shoes_path %>
+
+<script>
+    $(function() {
+       $("#shoe_name").kendoAutoComplete(["Nike Free", "Saucony Series 7", "Vibram Five Fingers","New Balance"]);
+    });
+</script>
